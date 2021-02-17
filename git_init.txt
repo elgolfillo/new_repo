@@ -1,0 +1,24 @@
+https://kbroman.org/github_tutorial/pages/init.html
+
+ver el PID de ssh-agent
+$eval "$(ssh-agent -s)"
+
+
+asociar ssh al mi key
+$ ssh-add -k ~/.ssh/keygen1
+
+
+https://elgolfillo.github.io/jing.github.io/
+
+
+git push --set-upstream origin master
+ 
+ git remote add origin elgolfillo@gmail.com:elgolfillo/jing.github.io
+ elgolfillo/jing.github.io
+ 
+ ----------------------------------------
+ 
+ 
+ git push -u origin master
+ También podemos hacer pull, es decir, traernos cambios desde el repositorio remoto al repositorio local:
+ git pull origin master
